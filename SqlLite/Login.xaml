@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SqlLite.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login"
+                 />
+            <Entry x:Name="txtEmail" 
+                Placeholder="User"
+                   >
+                
+            </Entry>
+            <Entry x:Name="txtPassword"
+                   Placeholder="Password"></Entry>
+            <Button x:Name="btnIniciar"
+                    Text="Iniciar Sesion"
+                    Clicked="btnIniciar_Clicked">
+                
+            </Button>
+            <Button x:Name="btnRegistrar"
+                    Text="Crear Nuevo Usuario"
+                    Clicked="btnRegistrar_Clicked">
+
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

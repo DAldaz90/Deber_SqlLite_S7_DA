@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SqlLite.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro de Usuario"
+                />
+            <Entry x:Name="txtNombre" Placeholder="Nombres"></Entry>
+            <Entry x:Name="txtUser" Placeholder="User"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Password"></Entry>
+            <Button x:Name="btnGuardar" Text="Save" Clicked="btnGuardar_Clicked"></Button>
+            <Button x:Name="btnSalir" Text="Back" Clicked="btnSalir_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
